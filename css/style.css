@@ -123,7 +123,7 @@ video {
 /* imgArea */
 
 .imgArea1 {
-    background-image: url(images/imgArea1.JPG);
+    background-image: url(../images/imgArea1.JPG);
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
@@ -131,7 +131,7 @@ video {
     margin-top: 200px;
   }
   .imgArea2 {
-    background-image: url(images/imgArea2.JPG);
+    background-image: url(../images/imgArea2.JPG);
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
@@ -139,7 +139,7 @@ video {
     margin-top: 200px;
   }
  .imgArea3 {
-    background-image: url(images/imgArea3.JPG);
+    background-image: url(../images/imgArea3.JPG);
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
