@@ -1,0 +1,53 @@
+/*==================================================
+ふわっ
+===================================*/
+
+.fadeUp {
+animation-name: fadeUpAnime;/*アニメーションの定義名*/
+animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+opacity:0;
+}
+
+/*アニメーションの開始から終了までを指定する*/
+@keyframes fadeUpAnime{
+  from {
+  opacity: 0;
+  transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+  transform: translateY(0);
+  }
+}
+
+/*==================================================
+アニメーション設定
+===================================*/
+
+/* アニメーション１回分の時間の長さを指定するCSS*/
+
+.change-time05{
+  animation-duration: 2s;
+}
+
+.change-time1{
+  animation-duration: 2.5s;
+}
+
+.change-time15{
+  animation-duration: 3s;
+}
+
+.change-time2{
+ animation-duration: 3.5s;
+}
+
+.change-time25{
+animation-duration: 4s;
+}
+
+.fadeUpTrigger{
+    opacity: 0;
+}
